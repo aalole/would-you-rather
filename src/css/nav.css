@@ -1,0 +1,34 @@
+.nav-wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #023047;
+    color: #fff;
+    width: 150px;
+}
+.link{
+    font-size: 15px;
+    margin: 10px 5px;
+    text-transform: capitalize;
+    color: white;
+}
+.link:hover{
+    color: #fb8500;
+}
+.logout{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.logoutbtn{
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+    text-align: left;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.logoutbtn:hover{
+    background-color: #023047;
+    color: #fff;
+}
+
